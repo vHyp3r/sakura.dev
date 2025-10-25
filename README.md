@@ -1,70 +1,118 @@
-# Getting Started with Create React App
+# sakura.xyz 🌸 (Project Title)
+Start with a clear, engaging title and a brief introduction.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to sakura.xyz! We also go by sakura.dev or sakura.dll. This is an open-source Minecraft utility menu that strives to create availability and reliability for all users. It is designed to enhance gameplay for both Minecraft Bedrock and Minecraft Java editions. This app can suit all your needs, e.g., Texture Packs, Mods, Cheat/Utility Clients, and more.
 
-## Available Scripts
+(Include the Logo image here)
 
-In the project directory, you can run:
+## Key Features & Benefits
+This section combines the features from both files, presenting a comprehensive list.
 
-### `npm start`
+Cross-Platform Compatibility: Works seamlessly with both Minecraft Bedrock and Java editions and is designed to be cross-platform.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open-Source: Community-driven development, ensuring transparency and continuous improvement.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Customizable: Offers various configuration options to tailor the utility to individual preferences, including Custom Themes (w.i.p).
 
-### `npm test`
+Enhanced Gameplay: Provides tools and features to improve the overall Minecraft experience.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Injection Ability: Ability to inject dll / apk files within the app.
 
-### `npm run build`
+Webproxy Setup: Includes a webproxy setup.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Prerequisites & Dependencies
+Detail what a user needs before they can install the project.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Before installing and running Sakura, ensure you have the following installed:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Node.js: Version 16 or higher. Download from nodejs.org.
 
-### `npm run eject`
+npm (Node Package Manager): Usually comes with Node.js.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Installation & Setup Instructions
+Provide clear, step-by-step instructions.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Follow these steps to set up Sakura:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Clone the Repository:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Bash
 
-## Learn More
+git clone https://github.com/vHyp3r/sakura.xyz.git
+cd sakura.xyz
+Install Dependencies:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Bash
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+npm install
+Configure Firebase (Optional): Sakura utilizes Firebase for certain functionalities. To enable these features, you need to configure Firebase.
 
-### Code Splitting
+Create a Firebase project at console.firebase.google.com.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Enable the necessary Firebase services (e.g., Authentication, Database, Hosting).
 
-### Analyzing the Bundle Size
+Copy your Firebase configuration object and replace the placeholders in src/firebaseConfig.js (if it exists) or add it to your environment variables.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Start the Application:
 
-### Making a Progressive Web App
+Bash
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+npm start
+This will start the development server, and you can access the application in your browser at http://localhost:3000.
 
-### Advanced Configuration
+## Usage Examples & Available Scripts
+Explain how to run the application, which is a React app.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This project is a React application bootstrapped with Create React App. Refer to the React documentation for further usage details: react.dev.
 
-### Deployment
+In the project directory, you can run the following scripts:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+npm start: Runs the app in the development mode. Opens http://localhost:3000.
 
-### `npm run build` fails to minify
+npm test: Launches the test runner in interactive watch mode.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+npm run build: Builds the app for production to the build folder. Your app is ready to be deployed.
+
+## Configuration Options
+Briefly detail the key areas for customization.
+
+The application can be configured through environment variables or directly within the source code. Key configuration points include:
+
+Firebase Configuration: Necessary for utilizing Firebase services.
+
+API Endpoints: Ensure any external API endpoints are correctly configured, typically as environment variables.
+
+## Contributing Guidelines
+Clearly lay out how others can contribute to your project.
+
+We welcome contributions to Sakura! To contribute, please follow these steps:
+
+Fork the Repository: Fork the sakura.xyz repository to your GitHub account.
+
+Create a Branch: Create a new branch for your feature or bug fix.
+
+Implement Your Changes: Make your changes, ensuring they adhere to the project's coding style and guidelines.
+
+Test Your Changes: Thoroughly test your changes to ensure they function correctly.
+
+Submit a Pull Request: Submit a pull request to the main branch. Include a detailed description of your changes and the rationale behind them.
+
+## License
+Include your license badges and information.
+
+(Include the Badges here)
+
+This project is licensed under the GNU General Public License v3.0. You can also see that it is offered under MIT and AGPL licenses.
+
+## Acknowledgments
+Cite any tools, templates, or resources you used.
+
+This project uses Create React App.
+
+Special thanks to the following resources:
+
+Awesome Readme Templates
+
+Awesome README
+
+How to write a Good readme
